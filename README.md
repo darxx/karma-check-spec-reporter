@@ -1,2 +1,17 @@
 # karma-check-spec-reporter
-Karma plugin for jasmine spec files duplication report. Check all spec files for duplicates in naming.
+Karma plugin for jasmine spec files duplication report.
+
+Karma configuration:
+<pre>
+<code>
+  plugins: [
+      ...
+      require('karma-check-spec-reporter'),
+      ...
+  ],
+  ...
+  reporters: ['checkSpec'],
+  ...
+</code>
+</pre>
+
