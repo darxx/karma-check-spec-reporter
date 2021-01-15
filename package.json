@@ -1,6 +1,6 @@
 {
   "name": "karma-check-spec-reporter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Karma plugin for jasmine spec files duplication report.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,9 @@
     "url": "git+https://github.com/darxx/karma-check-spec-reporter.git"
   },
   "keywords": [
-    "karma-check-spec-reporter"
+    "karma-check-spec-reporter",
+    "unit test duplication",
+    "karma spec duplication"
   ],
   "author": "Darius Laurinčikas",
   "license": "MIT",

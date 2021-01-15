@@ -9,7 +9,7 @@ const checkSpecReporter = function (
         specFailure: self.specFailure.bind(self)
     };
 
-    const log = logger.create('reporter.checkSpec');
+    logger.create('reporter.checkSpec');
 
     const duplicationSpec = [];
     const reporter = {
