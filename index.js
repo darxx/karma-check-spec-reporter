@@ -31,7 +31,7 @@ const checkSpecReporter = function (
         done: () => {
             const found = duplicationSpec.filter((item) => item.count > 1);
             const count = found.length;
-            const files = count > 0 ? 'files' : 'file';
+            const files = count === 1 ? 'file' : 'files';
             if (found.length > 0) {
                 console.error(`\nFound duplication in spec ${files} [${count}]`);
                 found.forEach((item) => {

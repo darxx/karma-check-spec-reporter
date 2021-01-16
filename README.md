@@ -14,10 +14,3 @@ Karma configuration:
   ...
 </code>
 </pre>
-If duplication found:
-
-![speck not found](found.PNG)
-
-If duplication not found:
-
-![speck not found](not-found.PNG)
