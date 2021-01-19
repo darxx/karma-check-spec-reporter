@@ -1,6 +1,6 @@
 {
   "name": "karma-check-spec-reporter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Karma plugin for jasmine spec files duplication report.",
   "main": "index.js",
   "scripts": {
